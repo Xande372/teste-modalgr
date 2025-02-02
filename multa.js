@@ -11,7 +11,6 @@ function calcularMulta(valorPorDia, diasAtraso) {
     return `O valor da multa para ${diasAtraso} dias de atraso é: R$${valorMulta}`;
 }
 
-// Exemplo de uso no CLI
 const readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout
