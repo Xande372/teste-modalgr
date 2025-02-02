@@ -5,6 +5,7 @@ function calcularMulta(valorPorDia, diasAtraso) {
     if (valorMulta < 1) {
         valorMulta = 1;
     }
+    valorMulta = valorMulta.toFixed(2);
     
 
     return `O valor da multa para ${diasAtraso} dias de atraso é: R$${valorMulta}`;
